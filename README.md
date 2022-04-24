@@ -1,4 +1,4 @@
-# README.md Generator
+# 
 
 ## Table of Contents:
   1. [Description](#description) 
@@ -11,13 +11,13 @@
     
 
 ## Description
-Creating a README.md with Node.js 
+ 
 
 ## Installation
 nmp test
 
 ## Usage
-Please make a pull request with comments.
+
 
 ## License
 ![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)

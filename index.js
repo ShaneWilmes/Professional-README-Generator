@@ -1,5 +1,5 @@
 // // TODO: Create a function to initialize app
-function init () {
+function init (err) {
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');  // imports inquirer package or package-lock.json I installed npm i inquirer
 const fs = require('fs');  // imports file system
@@ -13,6 +13,7 @@ inquirer
             type: 'input',
             name: 'userName',
             message: 'What is your GitHub username?',
+            
         },
         {
             type: 'input',
@@ -52,7 +53,8 @@ inquirer
 
 // // TODO: Create a function to write README file
 .then((data) => {
-    fs.writeFileSync(path.join (process.cwd(), "README.md"), generate(data));
+    fs.writeFileSync(path.join (process.cwd(), "README.md"), generate(data))
+    err ? console.log(err) : console.log('Successfully create README.md!')
   });
 
     
