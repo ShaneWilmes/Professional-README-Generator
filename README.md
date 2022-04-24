@@ -1,4 +1,4 @@
-# ass
+# README.md Generator
 
 ## Table of Contents:
   [Description](#description) 
@@ -9,19 +9,19 @@
   [License](#License)  
 
 ## Description
-ass
+Making a README.md with Node.js.
 
 ## GitHub
-steve
+ShaneWilmes
 
 ## E-mail
-stevei
+shanewilmes@yahoo.com
 
 ## Installation
 nmp test
 
 ## Usage
-nothing
+Make a pull request.
 
 ## License
 
