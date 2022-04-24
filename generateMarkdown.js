@@ -35,6 +35,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license != 'None') {
     return `## License
+
 ${renderLicenseBadge(license)}
     `
   }
@@ -45,12 +46,12 @@ function generateMarkdown(data) {
   return `# ${data.projectName}
 
 ## Table of Contents:
-  1. [Description](#description) 
-  2. [Installation](#installation)
-  3. [Usage](#usage)  
-  4. [GitHub](#gitHub)
-  5. [E-mail](#e-mail)
-  ${renderLicenseLink(data.licenseType)}
+  [Description](#description) 
+  [Installation](#installation)
+  [Usage](#usage)  
+  [GitHub](#gitHub)
+  [E-mail](#E-mail)
+  [License](#License)  
 
 ## Description
 ${data.description}
