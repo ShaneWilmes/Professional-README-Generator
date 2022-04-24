@@ -48,13 +48,18 @@ function generateMarkdown(data) {
   1. [Description](#description) 
   2. [Installation](#installation)
   3. [Usage](#usage)  
-  4. [Contributing](#contributing)
-  5. [GitHub](#gitHub)
-  6. [E-mail](#email)
+  4. [GitHub](#gitHub)
+  5. [E-mail](#e-mail)
   ${renderLicenseLink(data.licenseType)}
 
 ## Description
-${data.description} 
+${data.description}
+
+## GitHub
+${data.userName}
+
+## E-mail
+${data.email}
 
 ## Installation
 ${data.npmi}
@@ -63,12 +68,7 @@ ${data.npmi}
 ${data.usingRepo}
 
 ${renderLicenseSection(data.licenseType)}
-
-## GitHub
-${data.userName}
-
-## E-mail
-${data.email}`
+`
 }
 
 module.exports = generateMarkdown;
