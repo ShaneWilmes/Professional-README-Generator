@@ -9,7 +9,7 @@
   [License](#License)  
 
 ## Description
-Making a README.md with Node.js.
+Creating a README.md with Node.js.
 
 ## GitHub
 ShaneWilmes
@@ -21,7 +21,7 @@ shanewilmes@yahoo.com
 nmp test
 
 ## Usage
-Make a pull request.
+Please make a pull request.
 
 ## License
 
