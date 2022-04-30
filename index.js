@@ -41,12 +41,24 @@ inquirer
             type: 'input',
             name: 'npmi',
             message: 'What command should be run to install dependencies?',
-            default: 'nmp test'
+            default: 'nmp i'
+        },
+        {
+            type: 'input',
+            name: 'nmpTest',
+            message: 'What command should be run tests?',
+            default: 'mpm test'
+
         },
         {
             type: 'input',
             name: 'usingRepo',
             message: 'What does the user need to know about using the repo?',
+        },
+        {
+            type: 'input',
+            name: 'contributions',
+            message: 'What does the user need to know about contributing to the repo?'
         },
         
     ])
