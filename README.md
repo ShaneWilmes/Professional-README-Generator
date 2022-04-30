@@ -1,27 +1,35 @@
-# README.md Generator
+# 
 
 ## Table of Contents:
-  [Description](#description) 
-  [Installation](#installation)
-  [Usage](#usage)  
-  [GitHub](#gitHub)
+  [Description](#Description) 
+  [Installation](#Installation)
+  [Tests](#Tests)
+  [Usage](#Usage)  
+  [GitHub](#GitHub)
   [E-mail](#E-mail)
+  [Contributing](#Contributing)
   [License](#License)  
 
 ## Description
-Creating a README.md with Node.js.
+
 
 ## GitHub
-ShaneWilmes
+
 
 ## E-mail
-shanewilmes@yahoo.com
+
 
 ## Installation
-nmp test
+npm i
+
+## Tests
+npm test
 
 ## Usage
-Please make a pull request.
+
+
+## Contributing
+
 
 ## License
 

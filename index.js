@@ -41,13 +41,13 @@ inquirer
             type: 'input',
             name: 'npmi',
             message: 'What command should be run to install dependencies?',
-            default: 'nmp i'
+            default: 'npm i'
         },
         {
             type: 'input',
-            name: 'nmpTest',
+            name: 'npmTest',
             message: 'What command should be run tests?',
-            default: 'mpm test'
+            default: 'npm test'
 
         },
         {
@@ -57,7 +57,7 @@ inquirer
         },
         {
             type: 'input',
-            name: 'contributions',
+            name: 'contributing',
             message: 'What does the user need to know about contributing to the repo?'
         },
         

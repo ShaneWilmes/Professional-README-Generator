@@ -46,11 +46,13 @@ function generateMarkdown(data) {
   return `# ${data.projectName}
 
 ## Table of Contents:
-  [Description](#description) 
-  [Installation](#installation)
-  [Usage](#usage)  
-  [GitHub](#gitHub)
+  [Description](#Description) 
+  [Installation](#Installation)
+  [Tests](#Tests)
+  [Usage](#Usage)  
+  [GitHub](#GitHub)
   [E-mail](#E-mail)
+  [Contributing](#Contributing)
   [License](#License)  
 
 ## Description
@@ -65,8 +67,14 @@ ${data.email}
 ## Installation
 ${data.npmi}
 
+## Tests
+${data.npmTest}
+
 ## Usage
 ${data.usingRepo}
+
+## Contributing
+${data.contributing}
 
 ${renderLicenseSection(data.licenseType)}
 `
