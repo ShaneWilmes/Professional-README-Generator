@@ -1,4 +1,4 @@
-# README.md Generator
+# Team Profile Generator
 
 ## Table of Contents:
   [Description](#Description) 
@@ -11,13 +11,13 @@
   [License](#License)  
 
 ## Description
-Creating a README.md with Node.js
+Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. 
 
 ## GitHub
 ShaneWilmes
 
 ## E-mail
-shanewilmes@yahoo.com
+shane.wilmes3678@gmail.com
 
 ## Installation
 npm i
@@ -26,10 +26,10 @@ npm i
 npm test
 
 ## Usage
-Clone the repo
+Clone the repo and navigate to the folder and run commands.
 
 ## Contributing
-Make a pull request
+Make a pull request with comments.
 
 ## License
 

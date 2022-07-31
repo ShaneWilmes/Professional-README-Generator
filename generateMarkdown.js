@@ -75,7 +75,6 @@ ${data.usingRepo}
 
 ## Contributing
 ${data.contributing}
-
 ${renderLicenseSection(data.licenseType)}
 `
 }
