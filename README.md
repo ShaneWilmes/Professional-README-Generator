@@ -11,19 +11,16 @@
   [License](#License)  
 
 ## Description
-Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. 
+Node.js command-line application that takes uses Object Oriented Programming(OOP) to create a README.md file. 
 
 ## GitHub
 ShaneWilmes
 
 ## E-mail
-shane.wilmes3678@gmail.com
+shanewilmes@yahoo.com
 
 ## Installation
 npm i
-
-## Tests
-npm test
 
 ## Usage
 Clone the repo and navigate to the folder and run commands.
