@@ -11,7 +11,7 @@
   [License](#License)  
 
 ## Description
-Node.js command-line application that takes uses Object Oriented Programming(OOP) to create a README.md file. 
+Node.js command-line application that uses Object Oriented Programming(OOP) to create a README.md file. 
 
 ## GitHub
 ShaneWilmes
