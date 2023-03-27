@@ -1,5 +1,5 @@
 # Professional-README-Generator
-README.md generator using Node.js
+README.md generator using Node.js and OOP.
 
 # User Story
 AS A developer
